@@ -1,8 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int i,x,n;
-    scanf("%d%d",&x,&n);
-    for(i=n;i>=x;i--)
-    printf("%d ",i);
+    int i,n,p;
+    scanf("%d%d",&n,&p);
+    for(i=p; i>=n ;i--)
+    {
+        printf("%d ",i);
+    }
+    
 }
